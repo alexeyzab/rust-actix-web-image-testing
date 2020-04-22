@@ -1,0 +1,14 @@
+[package]
+name = "rust-image"
+version = "0.1.0"
+authors = ["Alexey Zabelin <hello@alexeyzabelin.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-multipart = "0.2.0"
+actix-rt = "1.0.0"
+actix-web = "2.0.0"
+futures = "0.3.1"
+image = "0.23.4"
